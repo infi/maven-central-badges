@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto+Slab:wght@700&display=swap");
+
+body,
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Roboto Slab", serif;
+}
+
+.home {
+    height: 100vh;
+    background: linear-gradient(50deg, rgb(235, 187, 187), rgb(127, 127, 192));
+    display: grid;
+    place-items: center;
+}
+
+a:link,
+a:visited {
+    color: rgb(162, 162, 236);
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+.contents {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 1em;
+    margin-bottom: 1em;
+    color: white;
+}
+
+input {
+    background-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2);
+    border-style: solid;
+    border-width: 1px;
+    font-size: 1em;
+    width: calc(calc(100% - 2em) - 2px);
+    padding: 1em;
+    transition: 0.2s;
+    color: white;
+    margin: 0.5em 0;
+}
+
+input::placeholder {
+    color: rgb(209, 209, 209);
+}
+
+input:focus {
+    margin: 1em 0;
+    outline: none;
+    border-color: white;
+}
